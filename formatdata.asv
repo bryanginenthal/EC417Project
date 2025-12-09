@@ -1,0 +1,16 @@
+define_constants;
+bussys = loadcase('case39');
+
+
+solardata = readtable("2024_isone_variable_energy_resource_ver_data_series_2000-2023_rev1\solar\ISONE_solarcapacity_modeled_24yr_EPT.csv");
+solarcap = solardata.Var4(1);
+solargen = solardata.Var3 * solarcap / bussys.baseMVA;
+solargen = solargen(7:end);
+
+windgentot = readtable("2024_isone_variable_energy_resource_ver_data_series_2000-2023_rev1\wind\2024_isone_all_windplant_timeseries_locations.csv");
+windcap = sum(windgentot.NameplateCapacity_MW_);
+
+winddata = readtable("2024_isone_variable_energy_resource_ver_data_series_2000-2023_rev1\wind\2024_isone_wind_ofsw_aggregated_power_data_2000_2023_attk_eleclosspwrts.csv");
+windgen = winddata(:,9:end);
+windgen = table2array(windgen);
+windgen = reshape(windgen, [], 1);
