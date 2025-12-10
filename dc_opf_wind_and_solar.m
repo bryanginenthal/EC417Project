@@ -172,3 +172,17 @@ solarsol = x_opt(ng+1:ng+nb);
 windsol = x_opt(ng+nb+1:ng+2*nb);
 solarsel = x_opt(ng+2*nb+1:ng+3*nb);
 windsel = x_opt(ng+3*nb+1:end);
+
+windbus = find(windsel~=0);
+solarbus = find(solarsel~=0);
+fprintf('Power at each generator:\n')
+disp(gensol)
+fprintf('Wind generator placed at bus %1d producing %.5f pu.\n', windbus, windsol(windbus))
+
+fprintf('Solar generator placed at bus %1d producing %.5f pu.\n', solarbus, solarsol(solarbus))
+
+
+%%
+bussys.bus(solarbus,3) = bussys.bus(solarbus,3) - solarsol(solarbus)*solarcap/bussys.baseMVA;
+bussys.bus(windbus,3) = bussys.bus(windbus,3) - windsol(windbus)*windcap/bussys.baseMVA;
+opf(bussys)

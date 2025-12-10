@@ -10,8 +10,8 @@ nl = size(branch, 1);      % number of lines
 ng = size(gen,    1);      % number of generators
 
 solardata = readtable("2024_isone_variable_energy_resource_ver_data_series_2000-2023_rev1\solar\ISONE_solarcapacity_modeled_24yr_EPT.csv");
-solarcap = solardata.Var4(1);
-solargen = solardata.Var3 * solarcap / bussys.baseMVA; % Format generation to per-unit norm of system
+solarcap = solardata.Capacity(1);
+solargen = solardata.ISONE_pv_pwr * solarcap / bussys.baseMVA; % Format generation to per-unit norm of system
 solargen = solargen(6:end-1); % Capture same amount of data as wind data (starting from 1/1/2000, ending 12/31/2023)
 
 solargen = solargen(1:100);
