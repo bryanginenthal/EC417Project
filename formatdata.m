@@ -14,7 +14,7 @@ solarcap = solardata.Capacity(1);
 solargen = solardata.ISONE_pv_pwr * solarcap / bussys.baseMVA; % Format generation to per-unit norm of system
 solargen = solargen(6:end-1); % Capture same amount of data as wind data (starting from 1/1/2000, ending 12/31/2023)
 
-solargen = solargen(1:100);
+solargen = solargen(1:672);
 datatimes = find(solargen~=0);
 solargen = solargen(datatimes);
 
@@ -28,10 +28,10 @@ windgen = table2array(windgen);
 windgen = reshape(windgen, [], 1);
 %windgen = windgen * windcap / bussys.baseMVA;
 
-windgen = windgen(1:100);
+windgen = windgen(1:672);
 windgen = windgen(datatimes);
 
 loaddata = readtable("2024_isone_variable_energy_resource_ver_data_series_2000-2023_rev1\load\ISONE_grossload_metdata_spliced_24yr_UTC.csv");
 addload = loaddata.ISONE_grs_ld / bussys.baseMVA;
 addload = addload(1:end-6);
-addload = addload(1:24);
+addload = addload(1:672);
