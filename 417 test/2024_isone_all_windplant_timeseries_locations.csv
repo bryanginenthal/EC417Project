@@ -1,0 +1,66 @@
+Wind Plant,Column Name,ISONE Asset ID,Latitude,Longitude,Hub Height,Nameplate Capacity (MW),State,LoadZone
+Berkshire,Berkshire,BRKW,42.57,-73.3,80,15,MA,WCMA
+Bull Hill,BullHill,BLHW,44.73,-68.17,95,34.2,ME,ME
+Georgia Mountain,GeorgiaMountain,GMTW,44.7,-73.1,80,10,VT,VT
+Granite,Granite,GRPW,44.78,-71.31,80,99,NH,NH
+Groton,Groton,GROW,43.74,-71.8,78,48,NH,NH
+Hoosac,Hoosac,HOSW,42.7,-73,65,28.5,MA,WCMA
+Kingdom,Kingdom,KCW,44.76,-72.4,84,64.75,VT,VT
+Kibby,Kibby,KIBY,45.38,-70.56,80,132,ME,ME
+Lempster,Lempster,LEMP,43.233,-72.145,78,24,NH,NH
+Record Hill,RecordHill,RCHW,44.665,-70.632,80,50.6,ME,ME
+Rollins,Rollins,ROLL,45.39,-68.36,118.5,60,ME,ME
+Sheffield,Sheffield,SHEF,44.67,-72.09,80,40,VT,VT
+SpruceMountain,SpruceMountain,SPMT,44.416,-70.56,78,20,ME,ME
+Stetson I,StetsonI,STET,45.486,-68,118.5,57,ME,ME
+Stetson II,StetsonII,STE2,45.62,-67.98,118.5,25.5,ME,ME
+Saddleback,Saddleback,SADW,44.611,-70.369,85,34.2,ME,ME
+Oakfield,Oakfield,OAKW,46.07,-68.09,84,147.6,ME,ME
+Jericho,Jericho,JERW,44.47,-71.23,85,14.25,NH,NH
+Passadumkeag,Passadumkeag,PASW,45.13,-68.37,84,39.975,ME,ME
+Future Generation Wind,FutureGenerationWind,FGW,41.77,-70.61,100,8,MA,SEMA
+Bingham,Bingham,BNGW,45.116,-69.701,94,184.8,ME,ME
+Hancock,Hancock,HANW,44.766,-68.158,116.5,51,ME,ME
+Pisgha Mountain,PisghaMountain,PSGW,44.778,-68.523,95,9.075,ME,ME
+NBC_COV_WIND,NBC-COV-WIND,CV1W,41.676,-71.708,85,4.5,RI,RI
+W_WARWICK_COV_WIND,W-WARWICK-COV-WIND,CV2W,41.676,-71.708,85,4.5,RI,RI
+WED_COV_WIND,WED-COV-WIND,CV3W,41.676,-71.708,85,6,RI,RI
+Deerfield,Deerfield,DFW,42.885,-72.986,78,30,VT,VT
+Canton Mountain,CantonMountain,CANW,44.515,-70.303,85,22.8,ME,ME
+Green Hill,GreenHill,JS1W,41.798,-71.53,98,3,RI,RI
+Plainfield I,PlainfieldI,JS2W,41.796,-71.536,98,3,RI,RI
+Plainfield II,PlainfieldII,JS3W,41.795,-71.54,98,3,RI,RI
+Plainfield III,PlainfieldIII,JS4W,41.794,-71.53,98,3,RI,RI
+Shun I,ShunI,JS5W,41.799,-71.541,98,3,RI,RI
+Shun II,ShunII,JS6W,41.8,-71.536,98,3,RI,RI
+Shun III,ShunIII,JS7W,41.799,-71.549,98,3,RI,RI
+Berkshire Phase 2,BerkshirePhase2,BRK2,42.596,-73.273,80,4.6,MA,WCMA
+Antrim,Antrim,ANT,43.059,-72.016,92.5,28.8,NH,NH
+Block Island,BlockIsland,BIW,41.11,-71.53,127,30,RI,RI
+Vineyard Wind (State Contract),VineyardWindStateContract,None,41.055077,-70.47863,138,843.2,MA,SEMA
+Vineyard West LA (Future),VineyardWestLAFuture,None,40.924819,-70.585481,125,360,MA,SEMA
+Mayflower Wind (Future),MayflowerWindFuture,None,40.820639,-70.307191,150,804,MA,SEMA
+Revolution Wind (State Contract),RevolutionWindStateContract,None,41.20359,-71.117206,140,704,RI,RI
+Sunrise Wind LA (Future),SunriseLAFuture,None,40.967723,-71.211764,125,760,MA,SEMA
+Q944 Wind (Future),Q944WindFuture,None,41.06427,-70.695029,119,504,MA,SEMA
+Bay State LA (Future),BayStateLAFuture,None,40.966,-70.851,150,2124,MA,SEMA
+Equinor LA (Future),EquinorLAFuture,None,40.785,-70.529,150,1764,MA,SEMA
+South Fork LA (NYISO),SouthForkNYISO,None,41.087,-71.1,150,132,NY,Zone_K
+Park City (Future),ParkCityFuture,None,40.924819,-70.585481,125,800,MA,SEMA
+Cape Cod,CapeCod,None,41.462501,-69.57419,150,1200,MA,SEMA
+Boston,Boston,None,42.277077,-70.272847,150,1200,MA,NEMA
+Seabrook,Seabrook,None,42.823072,-70.263831,150,1200,NH,NH
+Wyman,Wyman,None,43.722078,-69.047005,150,1200,ME,ME
+Bar Harbor,BarHarbor,None,44.228643,-67.843082,150,1200,ME,ME
+Calais,Calais,None,44.509606,-66.941346,150,1200,ME,ME
+Maine South,MaineSouth,None,44.605,-70.899,120,600,ME,ME
+Maine Central,MaineCentral,None,45.071,-70.02,120,600,ME,ME
+Maine North 1,MaineNorth1,None,46.123,-68.501,120,1200,ME,ME
+Maine North 2,MaineNorth2,None,46.918,-68.169,120,1200,ME,ME
+Rox,Rox,Rox,44.622335,-70.617467,81.5,15.2,ME,ME
+Weaver,Weaver,Weaver,44.825431,-68.220346,117,72.6,ME,ME
+Vineyard  Wind 2 (Future),VineyardWind2Future,None,40.682586,-70.293819,150,1232,MA,SEMA
+Vineyard East LA1 (Future),VineyardEast LA1Future,None,40.68036,-70.108638,150,604,MA,SEMA
+Mayflower Wind 2 (Future),MayflowerWind2Future,None,40.713,-70.408,150,400,MA,SEMA
+Mayflower LA1 (Future),MayflowerLA1Future,None,40.664269,-70.505137,150,824,MA,SEMA
+SilverMaple,SilverMaple,Unknown,44.775321,-68.521361,117,20,ME,ME
